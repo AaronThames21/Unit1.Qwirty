@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgb(154, 114, 191);
+}
+.navbar ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+
+}
+header2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+
+}
+.brand {
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(154, 114, 191);
+    font-size: 40px;
+}
+.finance {
+ display: inline-block;
+ background: firebrick;
+ color: #ffffff;
+ border-radius: 4px;
+ padding: 0.5em 1em;
+ max-width: 100%;
+
+}form {
+    display: flex;
+    flex-grow: 1;
+}
+form input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+    max-width: 600px;
+
+}

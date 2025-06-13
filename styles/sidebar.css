@@ -1,0 +1,23 @@
+aside {
+    padding: 1ch;
+    padding-top: 0;
+    min-width: 25ch;
+    margin: 0;
+}
+aside ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1ch;
+    margin: 0;
+    padding: 0;
+}
+aside li {
+    color: aliceblue;
+    background-color:rgb(154, 114, 191);
+    width: 100%;
+    border-radius: 1px;
+    padding: 1ch;
+
+    
+}

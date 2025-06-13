@@ -1,0 +1,24 @@
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .2rem;
+  padding-left: 20px;
+}
+.product-card {
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    height:auto;
+    border-radius: 4px;
+}
+.product-card h3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(154, 114, 191);
+    font-family: 'Times New Roman', Times, serif;
+}
+.price {
+    color: #ffffff;
+    background-color: rgb(154, 114, 191);
+
+}
